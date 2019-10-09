@@ -1,0 +1,45 @@
+.editTag__container {
+  text-align: center;
+  padding-top: 36px;
+
+  .tagContainer {
+    margin-bottom: 24px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 24px;
+    // line-height: 24px;
+
+    h3 {
+      margin-bottom: 8px;
+    }
+
+    .tags {
+      display: inline-block;
+      border: none;
+      border-radius: 20px;
+      background-color: #5596fb;
+      color: #ffffff;
+      margin-right: 4px;
+      margin-bottom: 4px;
+      font-size: 12px;
+      padding: 4px 8px;
+      cursor: pointer;
+      
+    }
+    .noTagText {
+      color: #9e9e9e;
+      font-size: 12px;
+    }
+  }
+
+  .editTag__BTN {
+    display: inline-block;
+    background-color: #5596fb;
+    color: white;
+    width: 200px;
+    line-height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}

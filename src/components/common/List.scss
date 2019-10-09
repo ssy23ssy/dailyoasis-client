@@ -1,0 +1,38 @@
+.list__title {
+  line-height: 48px;
+  font-size: 18px;
+  color: #3a3a3a;
+  text-align: center;
+}
+
+.list__container {
+  background: linear-gradient(to bottom, #bfdef5, #d6e9fa, #e8f2fc, #ecf4fd, #f9fbff, #fbfdff, #ffffff);
+  padding-bottom: 10vh;
+  box-sizing: border-box;
+  padding-top: 16px;
+
+
+  .list__chunk {
+    margin-bottom: 36px;
+
+
+    .list__chunk__title {
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+
+    .list__item {
+      border: none;
+      background-color: #ffffff;
+      margin-bottom: 2px;
+      padding: 0 16px;
+      line-height: 42px;
+      display: flex;
+      justify-content: space-between;
+
+      .list__icon {
+        width: 17px;
+      }
+    } 
+  }
+}

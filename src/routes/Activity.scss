@@ -1,0 +1,104 @@
+.activity__image {
+
+  img {
+    width: 100%;
+  }
+}
+
+.activity__tag {
+  padding: 0 16px;
+  text-align: center;
+
+  .tag {
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    background-color: #5596fb;
+    color: #ffffff;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+}
+
+.activity__info {
+  text-align: center;
+  padding: 4px 16px 0 16px;
+  margin-bottom: 36px;
+
+  .activity__info__itme {
+    margin-bottom: 8px;
+
+    .activity__info__title {
+      font-weight: bold;
+      margin-bottom: 4px;
+      font-size: 14px;
+    }
+    .activity__info__content {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+}
+
+.reviewContainer {
+  padding: 0 16px;
+
+  h3 {
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .noReivews {
+    text-align: center;
+    line-height: 100px;
+  }
+  .yesReviews {
+
+    .activity__review {
+      margin-bottom: 8px;
+
+      .review__item {
+        margin-bottom: 4px;
+
+        .review__nickname {
+          font-size: 20px;
+          font-weight: bold;
+          word-break: break-word;
+        }
+
+        .star img {
+          width: 16px;
+        }
+      }
+      .reviewTop {
+        display: flex;
+        line-height: 35px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .reviewContent {
+
+        textarea {
+          padding: 0;
+          width: 100%;
+          resize: none;
+          border: none;
+          padding-top: 4px;
+          // border: 1px solid #e4e4e4;
+          // border-radius: 5px;
+          // padding: 4px;
+        }
+      }
+    }
+  }
+}
+
+.showMapBTN {
+  position: fixed;
+  bottom: 36px;
+  right: 24px;
+  width: 36px;
+  cursor: pointer;
+}

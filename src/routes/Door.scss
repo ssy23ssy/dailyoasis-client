@@ -1,0 +1,39 @@
+.door__top {
+  background-color: #5596fb;
+  color: white;
+  min-height: 75vh;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.door__bottom {
+  background-color: #ffffff;
+  min-height: 25vh;
+  text-align: center;
+  padding-top: 40px;
+  box-sizing: border-box;
+
+  .door__bottom__item {
+    margin-bottom: 16px;
+  }
+
+  .signupBTN {
+    display: inline-block;
+    background-color: #5596fb;
+    color: white;
+    width: 200px;
+    line-height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .loginBTN {
+    color: #5596fb;
+  }
+  .already {
+    font-size: 14px;
+  }
+}

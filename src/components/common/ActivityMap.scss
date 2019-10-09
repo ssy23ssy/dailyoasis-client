@@ -1,0 +1,36 @@
+.am__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: rgba(00, 00, 00, 0.5);
+  z-index: 1006;
+  text-align: center;
+  color: #ffffff;
+
+  .am__header {
+    height: 10vh;
+    position: relative;
+    background-color: #5596fb;
+    line-height: 10vh;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 0 8px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .close {
+    position: absolute;
+    background-color: #5596fb;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 8px;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 10vh;
+  }
+}

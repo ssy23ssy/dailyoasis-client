@@ -1,0 +1,26 @@
+.miniHeader {
+  height: 7vh;
+  display: flex;
+  .miniHeader__btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 7vh;
+    cursor: pointer;
+
+    .miniHeader__btn {
+      width: 35%;
+    }
+  }
+
+  
+  .miniHeader__title {
+    width: 85%;
+    line-height: 7vh;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+}

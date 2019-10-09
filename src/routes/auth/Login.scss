@@ -1,0 +1,43 @@
+.login__container {
+  position: relative;
+  min-height: 100vh;
+
+}
+
+.login__hello {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+  text-align: center;
+  padding: 48px 0;
+}
+
+.login__form {
+
+  .login__field {
+    margin-bottom: 36px;
+    text-align: center;
+
+    input {
+      width: 70%;
+      display: block;
+      box-sizing: border-box;
+      padding: 8px;
+      margin: auto;
+      border: none;
+      border-bottom: 1px solid #e4e4e4;
+    }
+
+    .loginBTN {
+      display: inline-block;
+      background-color: #5596fb;
+      border: none;
+      color: white;
+      width: 200px;
+      line-height: 35px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}

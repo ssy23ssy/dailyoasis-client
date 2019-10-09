@@ -1,0 +1,53 @@
+.footerNav {
+  width: 100%;
+  @media screen and (min-width: 721px) {
+    width: 720px;
+    margin: auto;
+  }
+  font-size: 13px;
+  letter-spacing: -1px;
+  height: 10vh;
+  position: fixed;
+  background-color: #ffffff;
+  z-index: 999;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  border-top: 1px solid rgb(234, 234, 237);
+
+  .footerNav__item {
+    cursor: pointer;
+    display: grid;
+    grid-template-rows: 55% 45%;
+    text-align: center;
+
+
+    .icon {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+
+      #profileIcon {
+        width: 18px;
+      }
+      #questIcon {
+        width: 15.5px;
+      }
+      #mapIcon {
+        width: 25px; // 좀 작음
+      }
+      #settingIcon {
+        width: 25px;
+      }
+    }
+
+    .footerText {
+      padding-top: 3px;
+    }
+
+  }
+  .cur {
+    color: #5596fb;
+    font-weight: bold;
+  }
+}
